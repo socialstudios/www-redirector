@@ -1,5 +1,5 @@
 require 'sinatra'
 
-get '/' do
-  "Hello, world"
+get '/*' do
+  redirect 'http://www.socialstudios.tv', 301
 end
